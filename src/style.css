@@ -76,7 +76,7 @@ main{
     width: 90vw;
     max-width: var(--fixed-width);
     min-width: var(--min-width);
-    height: 70vh;
+    height: 60vh;
     position: relative;
     top: -35vh;
     background-color: var(--clr-white);
