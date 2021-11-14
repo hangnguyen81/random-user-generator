@@ -147,7 +147,7 @@ main{
 }
 
 .btn{
-    font-size: .625rem;
+    font-size: .925rem;
     text-transform: uppercase;
     letter-spacing: var(--spacing);
     background: var(--clr-bg-dark);
@@ -156,10 +156,10 @@ main{
     border: 0;
     cursor: pointer;
     border-radius: var(--radius);
+    margin-top: 0.5rem;
 }
 
 .btn:hover,
 .btn:focus{
-    background: var(--clr-bg-light);
-    color: var(--clr-black);
+    text-decoration: underline;
 }
