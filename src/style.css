@@ -56,7 +56,7 @@ p {
 
 .title{
     margin-top: 0rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
     text-align: center;
     letter-spacing: var(--spacing);
     color: var(--clr-white);
@@ -78,7 +78,7 @@ main{
     min-width: var(--min-width);
     height: 50vh;
     position: relative;
-    top: -40vh;
+    top: -20vh;
     background-color: var(--clr-white);
     color:var(--clr-black);
     margin: 0 auto;
