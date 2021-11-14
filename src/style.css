@@ -56,7 +56,7 @@ p {
 
 .title{
     margin-top: 0rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
     text-align: center;
     letter-spacing: var(--spacing);
     color: var(--clr-white);
@@ -76,9 +76,9 @@ main{
     width: 90vw;
     max-width: var(--fixed-width);
     min-width: var(--min-width);
-    height: 60vh;
+    height: 50vh;
     position: relative;
-    top: -35vh;
+    top: -40vh;
     background-color: var(--clr-white);
     color:var(--clr-black);
     margin: 0 auto;
@@ -115,13 +115,13 @@ main{
 
 .user--title{
     color: var(--clr-muted);
-    font-size: .825rem;
+    font-size: 1rem;
     margin-bottom: .5rem;
 }
 
 .user--value{
     color: var(--clr-bg-dark);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 700;
     margin-top: 0;
 }
@@ -134,7 +134,7 @@ main{
 }
 .icon{
     color: var(--clr-muted);
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin: 0;
     border:0;
     background: transparent;
@@ -147,10 +147,10 @@ main{
 }
 
 .btn{
-    font-size: .925rem;
+    font-size: .825rem;
     text-transform: uppercase;
     letter-spacing: var(--spacing);
-    background: var(--clr-bg-dark);
+    background: var(--clr-muted);
     color: var(--clr-white);
     padding: .3rem .6rem;
     border: 0;
@@ -161,5 +161,5 @@ main{
 
 .btn:hover,
 .btn:focus{
-    text-decoration: underline;
+    background: var(--clr-bg-dark);
 }
