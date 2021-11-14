@@ -78,7 +78,7 @@ main{
     min-width: var(--min-width);
     height: 50vh;
     position: relative;
-    top: -20vh;
+    top: -28vh;
     background-color: var(--clr-white);
     color:var(--clr-black);
     margin: 0 auto;
